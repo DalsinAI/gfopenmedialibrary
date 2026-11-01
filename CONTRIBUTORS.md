@@ -14,7 +14,7 @@ We are The AmiCradle Team, who build AmiCradle alongside SacredTrees:
 
 ## Copyright holder
 
-Our build script, patches and tests are Copyright (c) 2026 AmigaChrome Team,
+Our build script, patches and tests are Copyright (c) 2026 AmiCradle Team,
 released under the MIT licence (`LICENSE`). A patch to libwebp or libvpx stays
 under that library's licence.
 
@@ -27,8 +27,8 @@ here; the sources themselves are not.
 | --- | --- | --- | --- |
 | libwebp's notices | `upstream/libwebp/` (`AUTHORS`, `COPYING`, `PATENTS`) | Google Inc. and the contributors in `AUTHORS` | BSD 3-clause, with Google's patent grant |
 | libvpx's notices | `upstream/libvpx/` (`AUTHORS`, `LICENSE`, `PATENTS`) | The WebM Project authors, listed in `AUTHORS` | BSD 3-clause, with Google's patent grant |
-| Our patch to libwebp 1.6.0 | `patches/libwebp-1.6.0-no-float.patch` | AmigaChrome Team, to Google's files | libwebp's licence |
-| Our patch to libvpx 1.17.0 | `patches/libvpx-1.17.0-amiga-align.patch` | AmigaChrome Team, to the WebM Project's files | libvpx's licence |
+| Our patch to libwebp 1.6.0 | `patches/libwebp-1.6.0-no-float.patch` | AmiCradle Team, to Google's files | libwebp's licence |
+| Our patch to libvpx 1.17.0 | `patches/libvpx-1.17.0-amiga-align.patch` | AmiCradle Team, to the WebM Project's files | libvpx's licence |
 
 ## Fetched at build time, not committed
 
