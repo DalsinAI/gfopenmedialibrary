@@ -2,8 +2,8 @@
 
 Media codec libraries for AmigaOS 3.x on 68k, built as static link libraries
 for GCC programs and datatypes: libwebp (WebP pictures) and libvpx (VP8 and
-VP9 video). openamigaimage's webp.datatype and webm.datatype are built on them. Part of the [OpenAmiga](https://github.com/DalsinAI/openamiga)
-ports, made for [OpenBrowser](https://github.com/DalsinAI/openamigabrowser),
+VP9 video). openamigaimage's webp.datatype and webm.datatype are built on them. Part of the [GFOpenAmiga](https://github.com/DalsinAI/openamiga)
+ports, made for [GFOpenBrowser](https://github.com/DalsinAI/openamigabrowser),
 the WebKit browser for AmigaOS 3.2.
 
 **Status:** Working: builds, and both libraries decode on the bench exactly as on x86 cores.
@@ -48,7 +48,7 @@ Link with: `-lwebpdemux -lwebpdecoder -lvpx`
 
 ## Tested
 
-`tests/webptest.c`, run on AmigaOS 3.2.3 on AmigaChrome's AC090 emulation (68040 with FPU, 256 MB), Instance-24, 4 October 2026, as `webptest DH1:OB/webp/lossy.webp DH1:OB/webp/lossless-alpha.webp DH1:OB/webp/lossy-alpha.webp DH1:OB/webp/anim.webp`:
+`tests/webptest.c`, run on AmigaOS 3.2.3 on AmiCradle's AC090 emulation (68040 with FPU, 256 MB), Instance-24, 4 October 2026, as `webptest DH1:OB/webp/lossy.webp DH1:OB/webp/lossless-alpha.webp DH1:OB/webp/lossy-alpha.webp DH1:OB/webp/anim.webp`:
 
 ```
 DH1:OB/webp/lossy.webp 64 48 alpha=0 24b3d77f
