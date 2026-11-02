@@ -2,7 +2,7 @@
 
 ## Creator and maintainer
 
-- **SacredTrees** ([@SacredTrees](https://github.com/SacredTrees)): created openamigamedialibrary, the Amiga build of libwebp and libvpx, designs it and maintains it.
+- **SacredTrees** ([@SacredTrees](https://github.com/SacredTrees)): created gfopenmedialibrary, the Amiga build of libwebp and libvpx, designs it and maintains it.
 
 ## The AmiCradle team
 

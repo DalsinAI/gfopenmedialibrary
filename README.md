@@ -1,9 +1,9 @@
-# openamigamedialibrary
+# gfopenmedialibrary
 
 Media codec libraries for AmigaOS 3.x on 68k, built as static link libraries
 for GCC programs and datatypes: libwebp (WebP pictures) and libvpx (VP8 and
-VP9 video). openamigaimage's webp.datatype and webm.datatype are built on them. Part of the [GFOpenAmiga](https://github.com/DalsinAI/openamiga)
-ports, made for [GFOpenBrowser](https://github.com/DalsinAI/openamigabrowser),
+VP9 video). gfopenimage's webp.datatype and webm.datatype are built on them. Part of the [GFOpenAmiga](https://github.com/DalsinAI/gfopenamiga)
+ports, made for [GFOpenBrowser](https://github.com/DalsinAI/gfopenbrowser),
 the WebKit browser for AmigaOS 3.2.
 
 **Status:** Working: builds, and both libraries decode on the bench exactly as on x86 cores.
@@ -30,7 +30,7 @@ for the library goes to its authors; see `upstream/` for their notices.
 ## Building
 
 You need the os32-gcc16 compiler (bebbo's amiga-gcc on GCC 16.2 with libnix
-and libpthread; see DalsinAI/openamigabrowser `stove/`) and the upstream
+and libpthread; see DalsinAI/gfopenbrowser `stove/`) and the upstream
 tarballs from [SOURCES](SOURCES) in `tarballs/`. Then:
 
 ```
@@ -57,7 +57,7 @@ DH1:OB/webp/lossy-alpha.webp 50 20 alpha=1 ca376736
 DH1:OB/webp/anim.webp 32 32 alpha=0 02bb8100
 ```
 
-The checksums are the same as on x86 cores: the WebP sums equal libwebp 1.6.0's on Linux, and all 60 video frames (30 VP8, 30 VP9, 160x120) equal libvpx 1.17.0's on Linux, frame for frame. The test files are openamigaimage's (`Datatypes/tests/make-media.sh`), with the WebM clips' frames copied into IVF files; the full output is in `tests/bench-output.txt`.
+The checksums are the same as on x86 cores: the WebP sums equal libwebp 1.6.0's on Linux, and all 60 video frames (30 VP8, 30 VP9, 160x120) equal libvpx 1.17.0's on Linux, frame for frame. The test files are gfopenimage's (`Datatypes/tests/make-media.sh`), with the WebM clips' frames copied into IVF files; the full output is in `tests/bench-output.txt`.
 
 `tests/vpxtest.c`, as `vpxtest DH1:OB/vpx/vp8.ivf DH1:OB/vpx/vp9.ivf`:
 
@@ -90,4 +90,4 @@ headers and tests) are MIT, Copyright (c) 2026 AmiCradle Team: see
 
 ## Contributors
 
-openamigamedialibrary is created and maintained by [SacredTrees](https://github.com/SacredTrees) with The AmiCradle Team, copyright AmiCradle Team. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
+gfopenmedialibrary is created and maintained by [SacredTrees](https://github.com/SacredTrees) with The AmiCradle Team, copyright AmiCradle Team. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
